@@ -41,3 +41,14 @@ The ability to recognise and output speech is also added using open-source model
 **Human**: "Do you think the warp engine could really exist one day?"
 
 **Bot**: "Eh, no, I doubt you."
+
+
+
+## Usage Guide
+The '**dataset.txt**' file is the dataset used to train the bot. You can use your own dataset provided it is in the format of the original file.
+
+The '**training.ipynb**' file is the Python program used to train the bot. It is recommended to run this using Google Colab to avoid any errors or modify the file appropriately to run it locally.
+
+The '**run_bot.ipynb**' file is used to run the bot after training it. This directory which contains this file should also contain the checkpoints for the model trained using the previous program. Since access to microphone and speakers is required here, it is recommeded to run this program locally after downloading the checkpoint files from Colab.
+
+ 
